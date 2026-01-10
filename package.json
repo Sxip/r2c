@@ -1,0 +1,57 @@
+{
+  "name": "@sxips/r2c",
+  "version": "1.0.2",
+  "description": "A TypeScript client for the R2C Jobsheet API. Manages authentication and provides type-safe access to jobsheet endpoints.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.ts\"",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "typescript",
+    "r2c",
+    "jobsheet",
+    "api-client",
+    "rest-api"
+  ],
+  "author": "Sxip",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sxip/r2c.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sxip/r2c/issues"
+  },
+  "homepage": "https://github.com/Sxip/r2c#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "@types/node": "^20.11.0",
+    "@vitest/ui": "^1.2.0",
+    "@vitest/coverage-v8": "^1.2.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  },
+  "dependencies": {
+    "fetch": "^1.1.0"
+  }
+}
