@@ -1,9 +1,12 @@
 {
   "name": "@sxips/r2c",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A TypeScript client for the R2C Jobsheet API. Manages authentication and provides type-safe access to jobsheet endpoints.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",

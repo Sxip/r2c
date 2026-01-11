@@ -5,7 +5,6 @@
     "": {
       "name": "r2c",
       "dependencies": {
-        "@sxips/r2c": "^1.0.1",
         "fetch": "^1.1.0",
       },
       "devDependencies": {
@@ -169,8 +168,6 @@
     "@rollup/rollup-win32-x64-msvc": ["@rollup/rollup-win32-x64-msvc@4.55.1", "", { "os": "win32", "cpu": "x64" }, "sha512-SPEpaL6DX4rmcXtnhdrQYgzQ5W2uW3SCJch88lB2zImhJRhIIK44fkUrgIV/Q8yUNfw5oyZ5vkeQsZLhCb06lw=="],
 
     "@sinclair/typebox": ["@sinclair/typebox@0.27.8", "", {}, "sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA=="],
-
-    "@sxips/r2c": ["@sxips/r2c@1.0.1", "", { "dependencies": { "fetch": "^1.1.0" } }, "sha512-OWjxv4zO/eZ8rCPxKkAaK9ZgN2RNB+uv2o/bm3WdFtKMdtJV8e5fKKvqeXupssQPfC/cJmzTyxdvXNHJqbZ1PA=="],
 
     "@types/estree": ["@types/estree@1.0.8", "", {}, "sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w=="],
 
